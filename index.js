@@ -33,3 +33,11 @@ function findTheCheese (foods) {
   }
   return "no cheese!"
 }
+
+
+function wordsB (words) {
+  var newArry = []
+  for (var i =0; i<words.length; i++) {
+    if (word.starsWith("B"))
+  }
+}
