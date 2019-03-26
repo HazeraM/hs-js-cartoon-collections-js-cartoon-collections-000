@@ -3,7 +3,7 @@ var dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 function dwarfRollCall(dwarves) {
  var newStr = [];
  dwarves.forEach(function(name, i) {
-   newStr.push(i+1 + ". " + name);
+   newStr.push(i+1 + ". " + name + " ");
  });
  return newStr.join(" ");
 }
